@@ -7,6 +7,7 @@ import Navbar from "./Components/Navbar/Navbar";
 import Contact from "./pages/ContactMe/ContactMe";
 import Resume from "./pages/Resume/Resume";
 import AboutMe from "./pages/AboutMe/AboutMe";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/resume" component={Resume} />
         </Wrapper>
+      <Footer/>
       </div>
     </Router>
   );

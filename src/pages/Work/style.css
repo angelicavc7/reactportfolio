@@ -1,0 +1,24 @@
+.Work header{
+    display: flex;
+    justify-content: right;
+    border: solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font: bold;
+    font-size: 36px;
+    background-color: darkgray;
+}
+.project1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+
+}
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+
+}
+.project a:hover{
+    opacity: 30%;
+}
